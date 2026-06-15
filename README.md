@@ -1,1 +1,1 @@
-# apples_or_tomatoes_image_classification
+# apples_or_oranges_image_classification
