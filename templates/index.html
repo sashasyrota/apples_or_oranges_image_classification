@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block head_information %}Load an image to get a probability result{% endblock %}
+
+{% block button_information %}
+<form action="/classify" method="post" enctype="multipart/form-data">
+  <input type="file" name="file" accept="image/*" required>
+  <button type="submit">Send a file</button>
+</form>
+{% endblock %}

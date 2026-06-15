@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image classifier</title>
+  <style>
+    body {
+        background-image: url( "{{ background_url }}" );
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: orange;
+    }
+  </style>
+</head>
+<body>
+  <h1>{% block head_information %}{% endblock %}</h1>
+  <h2>{% block additional_information %}{% endblock %}</h2>
+  {% block button_information %}
+
+  {% endblock %}
+</body>
+</html>
