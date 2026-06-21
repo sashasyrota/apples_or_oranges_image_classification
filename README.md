@@ -16,7 +16,7 @@ fastapi dev
 
 ## Usage:
 You can classify image apples&oranges
-![img_1.png](img_1.png)![img.png](img.png)![img_2.png](img_2.png)
+![img_1.png](readme_img/img_1.png)![img.png](readme_img/img.png)![img_2.png](readme_img/img_2.png)
 
 ## Features
 -Model created by tensorflow.keras on Google Colab
